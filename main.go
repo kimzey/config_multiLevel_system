@@ -3,12 +3,11 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("is number  = ", fib(9))
-	fmt.Println("Hi Pop os", "Hello")
+	fmt.Println(fib(5)) // ใช้ 'Println' ที่ตัว 'L' เป็นตัวใหญ่
 }
 
 func fib(n int) int {
-	//Fibonacci
+	// ฟังก์ชัน Fibonacci
 	if n == 0 {
 		return 0
 	}
